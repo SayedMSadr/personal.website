@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sayed Masoud Sadreameli</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" type="image/png">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: 'Poppins', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #ddd;
+            background: linear-gradient(135deg, #0a0f0a, #1a331a);
+            background-attachment: fixed;
+            background-size: cover;
+            animation: gradientBackground 15s ease infinite;
+        }
+        @keyframes gradientBackground {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        header {
+            background: linear-gradient(135deg, #004d00, #003300);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 999;
+            box-shadow: 0 4px 15px rgba(0, 255, 136, 0.3);
+        }
+        header h1 {
+            transition: all 0.4s ease;
+            font-size: 2.5rem;
+        }
+        header h1:hover {
+            color: #00ff88;
+            text-shadow: 0 0 15px #00ff88, 0 0 25px #00ff88;
+            cursor: pointer;
+        }
+        nav {
+            margin-top: 1rem;
+        }
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            text-decoration: underline;
+            color: #00ff88;
+        }
+        section {
+            padding: 5rem 2rem;
+            max-width: 1000px;
+            margin: auto;
+            animation: fadeIn 1s ease;
+        }
+        @keyframes fadeIn {
+            from {opacity: 0; transform: translateY(20px);}
+            to {opacity: 1; transform: translateY(0);}
+        }
+        h2 {
+            color: #00cc66;
+            margin-bottom: 1rem;
+            font-size: 2rem;
+            position: relative;
+        }
+        h2::after {
+            content: '';
+            display: block;
+            width: 50px;
+            height: 3px;
+            background: #00ff88;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        p {
+            line-height: 1.8;
+            font-size: 1.1rem;
+        }
+        .coming-soon {
+            background-color: #003300;
+            padding: 2rem;
+            border-radius: 15px;
+            text-align: center;
+            color: #00ff88;
+            font-weight: bold;
+            font-size: 1.2rem;
+            margin-top: 2rem;
+            box-shadow: 0 0 15px #004d00;
+        }
+        .download-button {
+            display: inline-block;
+            margin-top: 1.5rem;
+            padding: 0.8rem 2rem;
+            background-color: #006600;
+            color: white;
+            font-size: 1.1rem;
+            border-radius: 30px;
+            text-decoration: none;
+            transition: background-color 0.3s, box-shadow 0.3s;
+        }
+        .download-button:hover {
+            background-color: #00cc66;
+            box-shadow: 0 0 10px #00ff88;
+            color: #121212;
+        }
+        .social-links {
+            margin-top: 2rem;
+        }
+        .social-links a {
+            margin-right: 20px;
+            color: #00cc66;
+            font-weight: bold;
+            text-decoration: none;
+            transition: color 0.3s ease, text-shadow 0.3s ease;
+            font-size: 1.2rem;
+        }
+        .social-links a:hover {
+            text-shadow: 0 0 10px #00ff88;
+            color: #00ff88;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: linear-gradient(135deg, #004d00, #003300);
+            color: white;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Sayed Masoud Sadreameli</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#resume">Resume</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Sayed Masoud Sadreameli is a data analysis student and researcher based in New York, with a focus on data mining, financial analysis, and digital economics. He has completed specialized training in data analytics and business intelligence, and is proficient in tools such as Python, SQL, Excel, Tableau, and Power BI. Mr. Sadreameli holds an academic background in mathematics and economics from Iran, where he developed a strong analytical foundation and problem-solving skills. Known for his aptitude in mathematics, he continues to apply these strengths in data modeling, statistical analysis, and quantitative research. He is passionate about continuous learning and applying data-driven approaches to real-world challenges.</p>
+</section>
+
+<section id="resume">
+    <h2>Resume</h2>
+    <a class="download-button" href="resume.pdf" download>Download My Resume</a>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="coming-soon">
+        Exciting projects are on the way!
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <div class="social-links">
+        <a href="https://www.linkedin.com/in/sayed-sadreameli-526a9630a" target="_blank">LinkedIn</a>
+        <a href="https://www.instagram.com/masoudsadreeameli" target="_blank">Instagram</a>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Sayed Masoud Sadreameli. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
+{\rtf1}
